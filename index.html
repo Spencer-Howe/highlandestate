@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>4 Private Acres | Month-to-Month Rental | Equestrian Facilities</title>
+  <meta name="description" content="Experience exceptional privacy, space, and resort-style living in this beautifully reimagined hilltop estate, offering panoramic city-light and mountain views stretching from Los Angeles to San Diego.">
+  <meta property="og:title" content="4 PRIVATE ACRES | MONTH-TO-MONTH RENTAL | EQUESTRIAN FACILITIES">
+  <meta property="og:description" content="Available furnished on a flexible month-to-month basis.">
+  <meta property="og:image" content="img/p33.webp">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#1d1f1c; --muted:#5f655e; --line:#e4e0d8; --cream:#faf8f4; --sand:#efe9df; --olive:#3e4a36; --olive2:#2e3829; --gold:#b08d57; --gold2:#94743f; --white:#fff; --shadow:0 6px 28px rgba(29,31,28,.12); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { font-family:'Inter',sans-serif; background:var(--cream); color:var(--ink); margin:0; -webkit-font-smoothing:antialiased; }
+    h1,h2,h3,.serif { font-family:'Cormorant Garamond',serif; font-weight:600; letter-spacing:.2px; }
+    img { display:block; max-width:100%; }
+    a { color:inherit; }
+    .wrap { max-width:1180px; margin:0 auto; padding:0 24px; }
+
+    /* nav */
+    .nav { position:sticky; top:0; z-index:40; background:rgba(250,248,244,.94); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
+    .nav .wrap { display:flex; align-items:center; justify-content:space-between; height:68px; }
+    .nav .mark { display:flex; align-items:center; gap:10px; text-decoration:none; font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:700; color:var(--olive2); }
+    .nav .mark i { color:var(--gold); font-size:1.15rem; }
+    .nav .links { display:flex; gap:28px; align-items:center; }
+    .nav .links a { text-decoration:none; font-size:.9rem; font-weight:500; color:var(--muted); }
+    .nav .links a:hover { color:var(--ink); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; border:none; cursor:pointer; font:600 .95rem 'Inter',sans-serif; text-decoration:none; border-radius:10px; padding:13px 24px; transition:background .2s, transform .1s; }
+    .btn:active { transform:scale(.98); }
+    .btn-gold { background:var(--gold); color:#fff !important; }
+    .btn-gold:hover { background:var(--gold2); }
+    .btn-line { background:#fff; border:1px solid var(--ink); color:var(--ink); }
+    .btn-line:hover { background:var(--sand); }
+    .nav .btn { padding:10px 20px; font-size:.88rem; }
+
+    /* title */
+    .head { padding-top:30px; padding-bottom:20px; }
+    .head h1 { font-size:clamp(1.9rem,4.2vw,2.9rem); line-height:1.08; margin:0 0 10px; color:var(--olive2); }
+    .head .meta { display:flex; flex-wrap:wrap; gap:8px 18px; color:var(--muted); font-size:.92rem; align-items:center; }
+    .head .meta i { color:var(--gold2); margin-right:5px; }
+    .head .meta button { background:none; border:none; padding:0; font:inherit; color:var(--ink); text-decoration:underline; cursor:pointer; font-weight:500; }
+
+    /* airbnb grid */
+    .grid { position:relative; display:grid; grid-template-columns:2fr 1fr 1fr; grid-template-rows:230px 230px; gap:8px; border-radius:16px; overflow:hidden; }
+    .grid button { padding:0; border:none; background:#ddd; cursor:pointer; overflow:hidden; position:relative; }
+    .grid button:first-child { grid-row:1 / span 2; }
+    .grid img { width:100%; height:100%; object-fit:cover; transition:transform .6s ease, filter .3s; }
+    .grid button:hover img { transform:scale(1.04); filter:brightness(.9); }
+    .grid .all { position:absolute; right:18px; bottom:18px; background:#fff; border:1px solid var(--ink); border-radius:10px; padding:9px 16px; font:600 .86rem 'Inter',sans-serif; cursor:pointer; display:flex; gap:8px; align-items:center; box-shadow:var(--shadow); }
+    .grid .all:hover { background:var(--sand); }
+
+    /* body */
+    .main { display:grid; grid-template-columns:minmax(0,1fr) 380px; gap:72px; padding-top:44px; padding-bottom:70px; }
+    .facts { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); border-radius:14px; background:#fff; margin-bottom:34px; }
+    .facts div { padding:18px 14px; text-align:center; border-right:1px solid var(--line); }
+    .facts div:last-child { border-right:none; }
+    .facts i { font-size:1.35rem; color:var(--gold2); }
+    .facts b { display:block; font-family:'Cormorant Garamond',serif; font-size:1.5rem; color:var(--olive2); margin-top:4px; line-height:1.1; }
+    .facts span { font-size:.78rem; color:var(--muted); text-transform:uppercase; letter-spacing:1.4px; }
+
+    .story p { font-size:1.06rem; line-height:1.85; color:#353a34; margin:0 0 22px; }
+    .story p.lead { font-family:'Cormorant Garamond',serif; font-size:clamp(1.45rem,2.6vw,1.8rem); line-height:1.4; color:var(--olive2); font-weight:500; }
+    .story p.close { font-family:'Cormorant Garamond',serif; font-size:1.55rem; line-height:1.4; color:var(--olive2); font-weight:600; border-top:1px solid var(--line); padding-top:26px; margin-top:8px; }
+    .story p.flag { background:var(--sand); border-left:3px solid var(--gold); padding:18px 22px; border-radius:0 12px 12px 0; font-weight:500; }
+    .pics { display:grid; gap:8px; margin:6px 0 30px; }
+    .pics.two { grid-template-columns:1fr 1fr; }
+    .pics button { padding:0; border:none; background:#ddd; cursor:zoom-in; border-radius:12px; overflow:hidden; aspect-ratio:3/2; }
+    .pics.one button { aspect-ratio:16/8; }
+    .pics img { width:100%; height:100%; object-fit:cover; transition:transform .6s ease; }
+    .pics button:hover img { transform:scale(1.03); }
+
+    /* inquiry card */
+    .side { position:relative; }
+    .card { position:sticky; top:92px; background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); padding:26px; }
+    .card .ttl { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:600; color:var(--olive2); line-height:1.15; margin:0 0 4px; }
+    .card .sub { color:var(--muted); font-size:.88rem; margin:0 0 18px; }
+    .fbox { border:1px solid #c9c4ba; border-radius:12px; overflow:hidden; margin-bottom:12px; }
+    .frow { display:grid; grid-template-columns:1fr 1fr; }
+    .frow + .frow, .fbox > .fld + .fld, .fbox > .frow + .fld, .fbox > .fld + .frow { border-top:1px solid #c9c4ba; }
+    .frow .fld + .fld { border-left:1px solid #c9c4ba; }
+    .fld { padding:9px 12px 8px; position:relative; }
+    .fld label { display:block; font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.8px; color:var(--ink); margin-bottom:2px; }
+    .fld input, .fld select, .fld textarea { width:100%; border:none; outline:none; background:transparent; font:400 .93rem 'Inter',sans-serif; color:var(--ink); padding:0; }
+    .fld textarea { resize:vertical; min-height:70px; }
+    .fld:focus-within { box-shadow:inset 0 0 0 2px var(--ink); border-radius:10px; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 2px; }
+    .chips input { display:none; }
+    .chips label { font-size:.8rem; font-weight:500; text-transform:none; letter-spacing:0; border:1px solid #c9c4ba; border-radius:30px; padding:5px 11px; cursor:pointer; margin:0; }
+    .chips input:checked + label { background:var(--olive2); color:#fff; border-color:var(--olive2); }
+    .card .btn { width:100%; padding:15px; font-size:1rem; margin-top:4px; }
+    .card .note { text-align:center; font-size:.8rem; color:var(--muted); margin:12px 0 0; }
+    #formMsg { margin:12px 0 0; font-size:.9rem; font-weight:500; text-align:center; }
+    .card .tags { display:flex; flex-direction:column; gap:10px; border-top:1px solid var(--line); margin-top:20px; padding-top:18px; font-size:.88rem; color:#3c4239; }
+    .card .tags i { color:var(--gold2); width:22px; display:inline-block; }
+
+    /* feature band */
+    .band { background:var(--olive2); color:#f1ece2; padding:70px 0; }
+    .band .eyebrow { color:var(--gold); font-family:'Cormorant Garamond',serif; font-weight:600; letter-spacing:1px; font-size:clamp(1.9rem,4vw,2.7rem); margin-bottom:28px; }
+    .band h2 { font-size:clamp(1.9rem,4vw,2.7rem); color:#fff; margin:0 0 34px; line-height:1.1; }
+    .mosaic { display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:210px; gap:8px; }
+    .mosaic button { padding:0; border:none; cursor:zoom-in; border-radius:12px; overflow:hidden; background:#222; }
+    .mosaic button.w { grid-column:span 2; }
+    .mosaic button.t { grid-row:span 2; }
+    .mosaic img { width:100%; height:100%; object-fit:cover; transition:transform .6s ease, opacity .3s; opacity:.95; }
+    .mosaic button:hover img { transform:scale(1.04); opacity:1; }
+    .band .more { margin-top:28px; text-align:center; }
+    .band .btn-line { background:transparent; border-color:#f1ece2; color:#f1ece2; }
+    .band .btn-line:hover { background:#f1ece2; color:var(--olive2); }
+
+    footer { background:#20271d; color:rgba(241,236,226,.7); font-size:.85rem; padding:30px 0 100px; text-align:center; }
+    footer b { color:#f1ece2; font-family:'Cormorant Garamond',serif; font-size:1.15rem; display:block; margin-bottom:4px; }
+
+    /* gallery overlay */
+    .ov { position:fixed; inset:0; z-index:100; background:var(--cream); overflow-y:auto; display:none; }
+    .ov.open { display:block; }
+    .ov .bar { position:sticky; top:0; background:rgba(250,248,244,.96); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:space-between; padding:14px 24px; border-bottom:1px solid var(--line); z-index:2; }
+    .ov .bar button { background:none; border:none; font-size:1.4rem; cursor:pointer; width:42px; height:42px; border-radius:50%; }
+    .ov .bar button:hover { background:var(--sand); }
+    .ov .tabs { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; }
+    .ov .tabs a { white-space:nowrap; text-decoration:none; font-size:.86rem; font-weight:500; padding:8px 14px; border:1px solid var(--line); border-radius:30px; background:#fff; }
+    .ov .tabs a:hover { border-color:var(--ink); }
+    .ov .body { max-width:900px; margin:0 auto; padding:24px 24px 80px; }
+    .ov h3 { font-size:1.9rem; color:var(--olive2); margin:34px 0 14px; scroll-margin-top:90px; }
+    .ov .g { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .ov .g button { padding:0; border:none; cursor:zoom-in; background:#ddd; aspect-ratio:3/2; overflow:hidden; }
+    .ov .g button:nth-child(3n+1) { grid-column:span 2; aspect-ratio:16/9; }
+    .ov .g img { width:100%; height:100%; object-fit:cover; }
+
+    /* lightbox */
+    .lb { position:fixed; inset:0; z-index:200; background:rgba(12,13,11,.97); display:none; align-items:center; justify-content:center; }
+    .lb.open { display:flex; }
+    .lb img { max-width:92vw; max-height:84vh; object-fit:contain; border-radius:4px; user-select:none; }
+    .lb .x, .lb .pv, .lb .nx { position:absolute; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.25); color:#fff; width:48px; height:48px; border-radius:50%; font-size:1.3rem; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+    .lb .x:hover, .lb .pv:hover, .lb .nx:hover { background:rgba(255,255,255,.22); }
+    .lb .x { top:18px; left:18px; }
+    .lb .pv { left:22px; top:50%; transform:translateY(-50%); }
+    .lb .nx { right:22px; top:50%; transform:translateY(-50%); }
+    .lb .ct { position:absolute; top:28px; left:50%; transform:translateX(-50%); color:#ddd; font-size:.9rem; font-weight:500; }
+
+    /* mobile bar */
+    .mbar { display:none; position:fixed; left:0; right:0; bottom:0; z-index:50; background:#fff; border-top:1px solid var(--line); padding:12px 16px; align-items:center; justify-content:space-between; gap:12px; }
+    .mbar .t { font-size:.8rem; color:var(--muted); line-height:1.35; }
+    .mbar .t b { display:block; color:var(--ink); font-size:.92rem; }
+
+    @media (max-width:960px) {
+      .main { grid-template-columns:1fr; gap:40px; }
+      .card { position:static; }
+      .mosaic { grid-template-columns:1fr 1fr; grid-auto-rows:170px; }
+    }
+    @media (max-width:760px) {
+      .wrap { padding:0 16px; }
+      .nav .links a:not(.btn) { display:none; }
+      .grid { grid-template-columns:1fr; grid-template-rows:auto; border-radius:0; margin:0 -16px; }
+      .grid button { display:none; aspect-ratio:4/3; }
+      .grid button:first-child { display:block; grid-row:auto; }
+      .head { padding-top:20px; padding-bottom:16px; }
+      .grid .all { display:flex; aspect-ratio:auto; right:12px; bottom:12px; }
+      .facts { grid-template-columns:1fr 1fr; }
+      .main { padding-top:24px; }
+      .facts div:nth-child(2) { border-right:none; }
+      .facts div:nth-child(-n+2) { border-bottom:1px solid var(--line); }
+      .pics.two { grid-template-columns:1fr; }
+      .pics.one button { aspect-ratio:3/2; }
+      .mosaic button.w { grid-column:span 2; }
+      .mosaic button.t { grid-row:span 1; }
+      .ov .g { grid-template-columns:1fr; }
+      .ov .g button:nth-child(3n+1) { grid-column:auto; aspect-ratio:3/2; }
+      .lb .pv, .lb .nx { display:none; }
+      .mbar { display:flex; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="mark"><i class="bi bi-house-door"></i><span>Santa Rosa Plateau</span></a>
+    <div class="links">
+      <a href="#" data-open-gallery>Photos</a>
+      <a href="#details">Details</a>
+      <a href="#grounds">Grounds</a>
+      <a href="#inquire" class="btn btn-gold">Inquire</a>
+    </div>
+  </div>
+</nav>
+
+<header class="wrap head" id="top">
+  <h1>4 PRIVATE ACRES | MONTH-TO-MONTH RENTAL | EQUESTRIAN FACILITIES</h1>
+  <div class="meta">
+    <span><i class="bi bi-geo-alt"></i>Wildomar, California</span>
+    <span><i class="bi bi-calendar3"></i>Month-to-month</span>
+    <span><i class="bi bi-lamp"></i>Furnished</span>
+    <button type="button" data-open-gallery><i class="bi bi-images" style="color:inherit"></i> All photos</button>
+  </div>
+</header>
+
+<section class="wrap">
+  <div class="grid">
+    <button type="button" data-lb="p33"><img src="img/p33.webp" alt="Hilltop estate at sunset" fetchpriority="high"></button>
+    <button type="button" data-lb="p01"><img src="img/p01-sm.webp" alt="City-light view at dusk"></button>
+    <button type="button" data-lb="p28"><img src="img/p28-sm.webp" alt="Pool and timber cabana"></button>
+    <button type="button" data-lb="p11"><img src="img/p11-sm.webp" alt="Family room"></button>
+    <button type="button" data-lb="p02"><img src="img/p02-sm.webp" alt="Kitchen stone sink"></button>
+    <button type="button" class="all" data-open-gallery><i class="bi bi-grid-3x3-gap"></i> Show all photos</button>
+  </div>
+</section>
+
+<section class="wrap main" id="details">
+  <div>
+    <div class="facts">
+      <div><i class="bi bi-arrows-angle-expand"></i><b>4,500+</b><span>Sq Ft</span></div>
+      <div><i class="bi bi-door-closed"></i><b>5</b><span>Bedrooms</span></div>
+      <div><i class="bi bi-droplet"></i><b>4+</b><span>Bathrooms</span></div>
+      <div><i class="bi bi-tree"></i><b>4</b><span>Acres</span></div>
+    </div>
+
+    <div class="story">
+      <p class="lead">Experience exceptional privacy, space, and resort-style living in this beautifully reimagined hilltop estate, offering panoramic city-light and mountain views stretching from Los Angeles to San Diego. Situated on nearly four landscaped acres in the prestigious Santa Rosa Plateau foothills, adjacent to La Cresta and Bear Creek Golf Club, this private retreat is just two minutes from shopping, dining, and I-15.</p>
+
+      <div class="pics one"><button type="button" data-lb="p01"><img src="img/p01.webp" alt="Panoramic city-light view" loading="lazy"></button></div>
+
+      <p>Available furnished on a flexible month-to-month basis, this extraordinary property is ideal for those seeking spacious, upscale accommodations without a long-term lease commitment.</p>
+
+      <p>Recently completed extensive interior and exterior renovations have transformed the entire estate. Offering more than 4,500 sq ft, the residence features five bedrooms, a bonus room, 4+ bathrooms, formal living spaces, a separate family room, and an entertainer's lounge with custom wet bar and wine refrigerator. The panorama room and expansive decks provide breathtaking views of Southern California's mountains and sparkling city lights.</p>
+
+      <div class="pics two">
+        <button type="button" data-lb="p06"><img src="img/p06-sm.webp" alt="Formal living room" loading="lazy"></button>
+        <button type="button" data-lb="p12"><img src="img/p12-sm.webp" alt="Wet bar and wine refrigerator" loading="lazy"></button>
+        <button type="button" data-lb="p09"><img src="img/p09-sm.webp" alt="Panorama room" loading="lazy"></button>
+        <button type="button" data-lb="p40"><img src="img/p40-sm.webp" alt="Deck at sunset" loading="lazy"></button>
+      </div>
+
+      <p>The newly remodeled chef's kitchen features imported Calacatta quartz, an oversized island, high-end ovens, dual dishwashers, a stone sink, pot filler, and butler's pantry. Primary suites on both levels offer exceptional flexibility, including a first-floor suite with a dressing room and two bathrooms, as well as an upstairs suite with a private terrace.</p>
+
+      <div class="pics two">
+        <button type="button" data-lb="p02"><img src="img/p02-sm.webp" alt="Kitchen" loading="lazy"></button>
+        <button type="button" data-lb="p48"><img src="img/p48-sm.webp" alt="Upstairs suite" loading="lazy"></button>
+      </div>
+
+      <p>The home is offered furnished, with kitchen essentials available upon request, allowing for a convenient and comfortable transition.</p>
+    </div>
+  </div>
+
+  <aside class="side" id="inquire">
+    <div class="card">
+      <p class="ttl">Flexible month-to-month rental opportunity.</p>
+      <p class="sub">Furnished residence. Equestrian and livestock facilities available. Kitchen essentials upon request.</p>
+
+      <form id="inqForm" action="https://formspree.io/f/mwlkqzwp" method="POST">
+        <input type="hidden" name="_subject" value="Santa Rosa Plateau Estate - New rental inquiry">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="fbox">
+          <div class="frow">
+            <div class="fld"><label for="f-move">Move-in</label><input type="date" id="f-move" name="move_in"></div>
+            <div class="fld"><label for="f-len">Length of stay</label>
+              <select id="f-len" name="length_of_stay">
+                <option value="">Select</option>
+                <option>1-3 months</option>
+                <option>3-6 months</option>
+                <option>6-12 months</option>
+                <option>12+ months</option>
+              </select>
+            </div>
+          </div>
+          <div class="fld"><label for="f-occ">Occupants</label><input type="number" id="f-occ" name="occupants" min="1" placeholder="Number of people"></div>
+        </div>
+
+        <div class="fbox">
+          <div class="fld"><label for="f-name">Name</label><input type="text" id="f-name" name="name" required autocomplete="name"></div>
+          <div class="fld"><label for="f-email">Email</label><input type="email" id="f-email" name="email" required autocomplete="email"></div>
+          <div class="fld"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
+        </div>
+
+        <div class="fbox">
+          <div class="fld">
+            <label>Inquiry type</label>
+            <div class="chips">
+              <input type="radio" name="inquiry_type" id="t1" value="Private tenant" checked><label for="t1">Private tenant</label>
+              <input type="radio" name="inquiry_type" id="t2" value="Insurance / ALE placement"><label for="t2">Insurance / ALE</label>
+              <input type="radio" name="inquiry_type" id="t3" value="Corporate housing"><label for="t3">Corporate</label>
+            </div>
+          </div>
+          <div class="fld">
+            <label>Animals</label>
+            <div class="chips">
+              <input type="checkbox" name="animals" id="a1" value="Horses"><label for="a1">Horses</label>
+              <input type="checkbox" name="animals" id="a2" value="Livestock"><label for="a2">Livestock</label>
+              <input type="checkbox" name="animals" id="a3" value="Pets"><label for="a3">Pets</label>
+            </div>
+          </div>
+          <div class="fld"><label for="f-msg">Message</label><textarea id="f-msg" name="message" rows="3"></textarea></div>
+        </div>
+
+        <button type="submit" class="btn btn-gold"><i class="bi bi-send"></i> Send inquiry</button>
+        <p id="formMsg" style="display:none"></p>
+      </form>
+
+      <div class="tags">
+        <span><i class="bi bi-calendar-check"></i>Month-to-month</span>
+        <span><i class="bi bi-lamp"></i>Furnished residence</span>
+        <span><i class="bi bi-shield-lock"></i>Private electric gate</span>
+        <span><i class="bi bi-car-front"></i>Parking for 20+ vehicles</span>
+      </div>
+    </div>
+  </aside>
+</section>
+
+<section class="band" id="grounds">
+  <div class="wrap">
+    <div class="eyebrow">Resort-Style Grounds</div>
+    <div class="mosaic">
+      <button type="button" class="w t" data-lb="p50"><img src="img/p50-sm.webp" alt="Swimming pool and hot tub" loading="lazy"></button>
+      <button type="button" data-lb="p49"><img src="img/p49-sm.webp" alt="Timber cabana" loading="lazy"></button>
+      <button type="button" data-lb="p36"><img src="img/p36-sm.webp" alt="Fountain" loading="lazy"></button>
+      <button type="button" class="w" data-lb="p32"><img src="img/p32-sm.webp" alt="Aerial of residence and pool" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+
+<section class="wrap main" style="padding-top:56px">
+  <div class="story">
+    <p>The resort-style grounds feature a swimming pool, hot tub, outdoor hot shower, two timber cabanas, shaded entertaining areas, walking pathways, a fountain, and established botanical landscaping. Multiple indoor and outdoor gathering spaces create an inviting setting for everyday living, relaxation, and entertaining.</p>
+
+    <div class="pics two">
+      <button type="button" data-lb="p44"><img src="img/p44-sm.webp" alt="Shaded entertaining area" loading="lazy"></button>
+      <button type="button" data-lb="p27"><img src="img/p27-sm.webp" alt="Walking pathways" loading="lazy"></button>
+    </div>
+
+    <p>Equestrian and livestock facilities are available for tenant use, including two enclosed mare paddocks, a tack room with restroom, a dressage court, a large training track, and additional fenced livestock areas. The property's equestrian infrastructure offers a rare opportunity for tenants who wish to accommodate their animals on-site, subject to prior approval and rental arrangements.</p>
+
+    <div class="pics two">
+      <button type="button" data-lb="p35"><img src="img/p35-sm.webp" alt="Training track" loading="lazy"></button>
+      <button type="button" data-lb="p29"><img src="img/p29-sm.webp" alt="Barn and paddocks" loading="lazy"></button>
+    </div>
+
+    <p>A private electric gate opens to a spectacular 450-ft cypress-lined driveway leading to the secluded hilltop residence, with generous parking for 20+ vehicles.</p>
+
+    <div class="pics one"><button type="button" data-lb="p42"><img src="img/p42.webp" alt="Cypress-lined driveway" loading="lazy"></button></div>
+
+    <p>Additional amenities include extensive outdoor entertainment space, and a peaceful, private rural-residential setting. Conveniently located near Temecula Wine Country, with direct freeway access to Orange County, Los Angeles, and San Diego.</p>
+
+    <div class="pics one"><button type="button" data-lb="p07"><img src="img/p07.webp" alt="Location map: La Cresta and Bear Creek" loading="lazy"></button></div>
+
+    <p class="flag">Flexible month-to-month rental opportunity. Furnished residence. Equestrian and livestock facilities available. Kitchen essentials upon request.</p>
+
+    <p class="close">An exceptional opportunity to enjoy the privacy and amenities of a luxury Southern California estate without a long-term commitment.</p>
+  </div>
+
+  <div class="side">
+    <div class="card" style="text-align:center">
+      <p class="ttl">4 PRIVATE ACRES</p>
+      <p class="sub">MONTH-TO-MONTH RENTAL | EQUESTRIAN FACILITIES</p>
+      <a href="#inquire" class="btn btn-gold"><i class="bi bi-envelope"></i> Inquire</a>
+      <button type="button" class="btn btn-line" style="width:100%;margin-top:10px" data-open-gallery><i class="bi bi-images"></i> Show all photos</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <b>4 PRIVATE ACRES | MONTH-TO-MONTH RENTAL | EQUESTRIAN FACILITIES</b>
+  Santa Rosa Plateau foothills, Southern California
+</footer>
+
+<div class="mbar">
+  <div class="t"><b>Month-to-month</b>Furnished residence</div>
+  <a href="#inquire" class="btn btn-gold">Inquire</a>
+</div>
+
+<!-- all photos -->
+<div class="ov" id="ov" aria-hidden="true">
+  <div class="bar">
+    <button type="button" id="ovClose" aria-label="Close"><i class="bi bi-chevron-left"></i></button>
+    <div class="tabs" id="ovTabs"></div>
+    <span style="width:42px"></span>
+  </div>
+  <div class="body" id="ovBody"></div>
+</div>
+
+<!-- lightbox -->
+<div class="lb" id="lb" aria-hidden="true">
+  <button type="button" class="x" id="lbX" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+  <div class="ct" id="lbCt"></div>
+  <button type="button" class="pv" id="lbPv" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
+  <img id="lbImg" alt="">
+  <button type="button" class="nx" id="lbNx" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+</div>
+
+<script>
+  var SECTIONS = [
+    ['Estate & Views', ['p33','p32','p26','p34','p01','p43','p04','p31','p37','p38','p40','p27','p39','p44','p36','p30','p41','p42']],
+    ['Pool & Cabanas', ['p50','p28','p49']],
+    ['Living Spaces', ['p06','p11','p16','p09','p12','p15','p25']],
+    ['Kitchen & Dining', ['p02','p03','p08','p05']],
+    ['Bedrooms & Baths', ['p48','p19','p20','p21','p13','p24','p18','p14','p10','p17']],
+    ['Bonus & Utility', ['p45','p46','p47']],
+    ['Equestrian', ['p35','p29','p22','p23']],
+    ['Location', ['p07']]
+  ];
+  var ALL = [];
+  SECTIONS.forEach(function (s) { s[1].forEach(function (p) { ALL.push(p); }); });
+
+  // all-photos overlay
+  var ov = document.getElementById('ov'), tabs = document.getElementById('ovTabs'), body = document.getElementById('ovBody');
+  SECTIONS.forEach(function (s, i) {
+    var id = 'sec' + i;
+    tabs.insertAdjacentHTML('beforeend', '<a href="#' + id + '">' + s[0] + '</a>');
+    var html = '<h3 id="' + id + '">' + s[0] + '</h3><div class="g">';
+    s[1].forEach(function (p) { html += '<button type="button" data-lb="' + p + '"><img src="img/' + p + '-sm.webp" alt="" loading="lazy"></button>'; });
+    body.insertAdjacentHTML('beforeend', html + '</div>');
+  });
+  tabs.addEventListener('click', function (e) {
+    var a = e.target.closest('a'); if (!a) return;
+    e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  });
+  function openOv() { ov.classList.add('open'); ov.scrollTop = 0; document.body.style.overflow = 'hidden'; }
+  function closeOv() { ov.classList.remove('open'); document.body.style.overflow = ''; }
+  document.querySelectorAll('[data-open-gallery]').forEach(function (b) {
+    b.addEventListener('click', function (e) { e.preventDefault(); e.stopPropagation(); openOv(); });
+  });
+  document.getElementById('ovClose').addEventListener('click', closeOv);
+
+  // lightbox
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'), lbCt = document.getElementById('lbCt'), cur = 0;
+  function show(i) {
+    cur = (i + ALL.length) % ALL.length;
+    lbImg.src = 'img/' + ALL[cur] + '.webp';
+    lbCt.textContent = (cur + 1) + ' / ' + ALL.length;
+    new Image().src = 'img/' + ALL[(cur + 1) % ALL.length] + '.webp';
+  }
+  function openLb(p) { show(Math.max(0, ALL.indexOf(p))); lb.classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function closeLb() { lb.classList.remove('open'); if (!ov.classList.contains('open')) document.body.style.overflow = ''; }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-lb]'); if (b) openLb(b.getAttribute('data-lb'));
+  });
+  document.getElementById('lbX').addEventListener('click', closeLb);
+  document.getElementById('lbPv').addEventListener('click', function () { show(cur - 1); });
+  document.getElementById('lbNx').addEventListener('click', function () { show(cur + 1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function (e) {
+    if (lb.classList.contains('open')) {
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowRight') show(cur + 1);
+      if (e.key === 'ArrowLeft') show(cur - 1);
+    } else if (ov.classList.contains('open') && e.key === 'Escape') closeOv();
+  });
+  var tx = null;
+  lb.addEventListener('touchstart', function (e) { tx = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', function (e) {
+    if (tx === null) return;
+    var dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 40) show(cur + (dx < 0 ? 1 : -1));
+    tx = null;
+  });
+
+  // inquiry form
+  var form = document.getElementById('inqForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = document.getElementById('formMsg');
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = true;
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })
+      .then(function (r) {
+        if (!r.ok) throw new Error();
+        form.reset();
+        msg.style.color = '#2e3829';
+        msg.textContent = 'Thank you. Your inquiry has been sent.';
+      })
+      .catch(function () {
+        msg.style.color = '#9c3d2e';
+        msg.textContent = 'Something went wrong. Please try again.';
+      })
+      .finally(function () { msg.style.display = ''; btn.disabled = false; });
+  });
+</script>
+
+</body>
+</html>
