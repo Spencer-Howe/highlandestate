@@ -1,0 +1,92 @@
+# Copy to property.yaml and fill in every TODO. property.yaml is git-ignored.
+# Anything left blank is skipped on the form, so you can fill it by hand.
+
+owner:
+  first_name: TODO
+  last_name: TODO
+  email: TODO
+  phone: TODO            # 951-555-1234
+  # Mailing/billing address for ALE Solutions. Leave blank to reuse the property address.
+  mailing_address:
+  mailing_city:
+  mailing_state:
+  mailing_zip:
+
+property:
+  address: 22053 Highland St
+  city: Wildomar
+  state: CA
+  zip: "92595"
+  county: Riverside
+  school_district: Lake Elsinore Unified   # verify
+  type: Single Family Home
+  bedrooms: 5
+  bathrooms: 4              # full count; forms that allow "4+" get that
+  sqft: 4500
+  max_occupancy: TODO       # e.g. 10
+  furnished: true
+  laundry: In unit
+  air_conditioning: Central AC   # verify
+  parking: Driveway
+  pool: true
+
+terms:
+  monthly_rent: TODO        # numbers only, e.g. 12000
+  deposit: TODO
+  available_date: TODO      # YYYY-MM-DD
+  min_lease_months: 1       # month-to-month
+  pets_allowed: TODO        # true / false
+  pet_fee:
+  utilities_included: TODO  # true / false
+  internet_included: TODO   # true / false
+  cleaning_fee:
+
+site_url: https://highlandranchestate.com
+
+# Your own listing text, used verbatim. "short" is for forms with a 500-character limit.
+text:
+  short: >-
+    Flexible month-to-month rental opportunity. Furnished residence. Equestrian
+    and livestock facilities available. Kitchen essentials upon request.
+  amenities: >-
+    Swimming pool, hot tub, outdoor hot shower, two timber cabanas, shaded
+    entertaining areas, walking pathways, a fountain, and established botanical
+    landscaping. Two enclosed mare paddocks, a tack room with restroom, a
+    dressage court, a large training track, and additional fenced livestock
+    areas. Private electric gate, 450-ft cypress-lined driveway, parking for 20+
+    vehicles.
+  full: >-
+    Experience exceptional privacy, space, and resort-style living in this beautifully reimagined hilltop estate, offering panoramic city-light and mountain views stretching from Los Angeles to San Diego. Situated on nearly four landscaped acres in the prestigious Santa Rosa Plateau foothills, adjacent to La Cresta and Bear Creek Golf Club, this private retreat is just two minutes from shopping, dining, and I-15.
+
+
+    Available furnished on a flexible month-to-month basis, this extraordinary property is ideal for those seeking spacious, upscale accommodations without a long-term lease commitment.
+
+
+    Recently completed extensive interior and exterior renovations have transformed the entire estate. Offering more than 4,500 sq ft, the residence features five bedrooms, a bonus room, 4+ bathrooms, formal living spaces, a separate family room, and an entertainer's lounge with custom wet bar and wine refrigerator. The panorama room and expansive decks provide breathtaking views of Southern California's mountains and sparkling city lights.
+
+
+    The newly remodeled chef's kitchen features imported Calacatta quartz, an oversized island, high-end ovens, dual dishwashers, a stone sink, pot filler, and butler's pantry. Primary suites on both levels offer exceptional flexibility, including a first-floor suite with a dressing room and two bathrooms, as well as an upstairs suite with a private terrace.
+
+
+    The home is offered furnished, with kitchen essentials available upon request, allowing for a convenient and comfortable transition.
+
+
+    The resort-style grounds feature a swimming pool, hot tub, outdoor hot shower, two timber cabanas, shaded entertaining areas, walking pathways, a fountain, and established botanical landscaping. Multiple indoor and outdoor gathering spaces create an inviting setting for everyday living, relaxation, and entertaining.
+
+
+    Equestrian and livestock facilities are available for tenant use, including two enclosed mare paddocks, a tack room with restroom, a dressage court, a large training track, and additional fenced livestock areas. The property's equestrian infrastructure offers a rare opportunity for tenants who wish to accommodate their animals on-site, subject to prior approval and rental arrangements.
+
+
+    A private electric gate opens to a spectacular 450-ft cypress-lined driveway leading to the secluded hilltop residence, with generous parking for 20+ vehicles.
+
+
+    Additional amenities include extensive outdoor entertainment space, and a peaceful, private rural-residential setting. Conveniently located near Temecula Wine Country, with direct freeway access to Orange County, Los Angeles, and San Diego.
+
+
+    Flexible month-to-month rental opportunity. Furnished residence. Equestrian and livestock facilities available. Kitchen essentials upon request.
+
+
+    An exceptional opportunity to enjoy the privacy and amenities of a luxury Southern California estate without a long-term commitment.
+
+# Photos uploaded to forms that accept files, in this order (from ../../img).
+photos: [p33, p01, p32, p50, p28, p49, p06, p11, p02, p03, p09, p12, p48, p20, p40, p42, p35, p29, p26, p07]

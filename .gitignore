@@ -1,2 +1,7 @@
 pics/
 .DS_Store
+tools/listings/property.yaml
+tools/listings/.profile/
+tools/listings/photos/
+tools/listings/.venv/
+__pycache__/
